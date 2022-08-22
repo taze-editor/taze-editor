@@ -26,7 +26,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://github.com/taze-editor-taze/tree/main/docs/docs/",
+          editUrl: "https://github.com/taze-editor/taze-editor/tree/main/docs",
           remarkPlugins: [
             [require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }]
           ]
