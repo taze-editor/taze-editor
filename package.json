@@ -1,0 +1,73 @@
+{
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/**"
+  ],
+  "scripts": {
+    "w:foreach-parallel": "yarn workspaces foreach --parallel --topological --verbose",
+    "w:build": "yarn w:foreach-parallel --no-private run pkg:build",
+    "w:prerelease": "yarn cd:build",
+    "w:brl": "yarn w:foreach-parallel --no-private run pkg:brl",
+    "changeset": "changeset",
+    "docs:build": "cd docs && yarn && yarn build",
+    "docs:start": "cd docs && yarn && yarn start",
+    "pkg:build": "cd $INIT_CWD && tsc && yarn pkg:rollup",
+    "pkg:build:watch": "cd $INIT_CWD && yarn pkg:rollup --watch",
+    "pkg:rollup": "cd $INIT_CWD && rollup --config=${PROJECT_CWD}/config/rollup.config.js",
+    "pkg:brl": "cd $INIT_CWD && barrelsby -d src -D -l all -q -e '.*(template|spec|__tests__).*'",
+    "remove-node-modules": "rimraf '**/node_modules'"
+  },
+  "resolutions": {
+    "@types/react": "17.0.47",
+    "@types/react-dom": "17.0.17",
+    "eslint-plugin-prettier": "3.3.1",
+    "prettier": "2.2.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "terser": "4.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
+    "@babel/plugin-transform-react-jsx": "^7.18.6",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@changesets/changelog-github": "^0.4.6",
+    "@changesets/cli": "^2.24.3",
+    "@types/lodash": "^4.14.182",
+    "@types/react": "17.0.47",
+    "@types/react-dom": "17.0.17",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-import": "^1.13.5",
+    "babel-plugin-inline-json-import": "^0.3.2",
+    "barrelsby": "^2.3.4",
+    "lerna": "^4.0.0",
+    "plop": "^3.1.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.77.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-includepaths": "^0.2.4",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "slate": "^0.81.1",
+    "slate-history": "^0.66.0",
+    "slate-react": "^0.81.0",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0",
+    "npm": "please-use-yarn",
+    "yarn": ">=1.22.0"
+  },
+  "packageManager": "yarn@3.2.2"
+}
