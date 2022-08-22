@@ -2821,6 +2821,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@taze-editor/plugin-basic-marks@workspace:packages/plugins/basic-marks":
+  version: 0.0.0-use.local
+  resolution: "@taze-editor/plugin-basic-marks@workspace:packages/plugins/basic-marks"
+  peerDependencies:
+    "@taze-editor/core": 0.1.0
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+    slate: ">=0.78.0"
+    slate-history: ">=0.66.0"
+    slate-react: ">=0.79.0"
+  languageName: unknown
+  linkType: soft
+
 "@tootallnate/once@npm:1":
   version: 1.1.2
   resolution: "@tootallnate/once@npm:1.1.2"
