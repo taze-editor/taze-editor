@@ -2913,9 +2913,9 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 18.7.8
-  resolution: "@types/node@npm:18.7.8"
-  checksum: e0125efefa896083c05f549d93166109959ffdd68cb626aad0d660c0ce9de888fe405b4763b4a3c3e0968560409c272413e0ad07204522543c688e162a617ecb
+  version: 18.7.9
+  resolution: "@types/node@npm:18.7.9"
+  checksum: 691ea1b734c0a39c4fe03c104fed18e0148bda6f2504dd341f84be8153d28e74d8114198d2d064ab7fdd2ece3ee16c60b78eea0101fb004f6e4595a631bc3839
   languageName: node
   linkType: hard
 
@@ -3860,9 +3860,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001370":
-  version: 1.0.30001380
-  resolution: "caniuse-lite@npm:1.0.30001380"
-  checksum: a106a63dfc6f49271bff16820cda81ca87c0afa7bd0a7b542e31cec250bca8b4d29ec2daff5ac1e4d9ee58b9edef9ee6c1fb852ebd371a794f5c67d36184ede6
+  version: 1.0.30001381
+  resolution: "caniuse-lite@npm:1.0.30001381"
+  checksum: c6de3370eaa47239618da8cc26188c71f0ca63fd0448459bda91a7b0cb71fd72e692359cd48b8315b9741ee380481f764215d5fa20a425ae768dbbe1eee2b44a
   languageName: node
   linkType: hard
 
@@ -11124,8 +11124,8 @@ __metadata:
   linkType: hard
 
 "zustand@npm:^4.0.0":
-  version: 4.1.0
-  resolution: "zustand@npm:4.1.0"
+  version: 4.1.1
+  resolution: "zustand@npm:4.1.1"
   dependencies:
     use-sync-external-store: 1.2.0
   peerDependencies:
@@ -11136,6 +11136,6 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 83de9cc386aeb311892328f1b32f4b5b96ff44ba319db60e42e54ca80619551aafd340d2dad4db908b0dbc00807764f688e0eb6ee4a8fa71c1ec2626e944163e
+  checksum: 03eefb193e2ecb43a761c81cb60f517c2780289dab0f55f2cbdb91400924c6291abb5a007b32ee19787b8f72b6769f891a38b64fd296660c170d632c3182f6e1
   languageName: node
   linkType: hard
