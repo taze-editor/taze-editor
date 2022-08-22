@@ -2821,9 +2821,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@taze-editor/plugin-basic-marks@workspace:packages/plugins/basic-marks":
+"@taze-editor/plugin-basic-marks@0.2.0, @taze-editor/plugin-basic-marks@workspace:packages/plugins/nodes/basic-marks":
   version: 0.0.0-use.local
-  resolution: "@taze-editor/plugin-basic-marks@workspace:packages/plugins/basic-marks"
+  resolution: "@taze-editor/plugin-basic-marks@workspace:packages/plugins/nodes/basic-marks"
   peerDependencies:
     "@taze-editor/core": 0.1.0
     react: ">=16.8.0"
@@ -2831,6 +2831,20 @@ __metadata:
     slate: ">=0.78.0"
     slate-history: ">=0.66.0"
     slate-react: ">=0.79.0"
+  languageName: unknown
+  linkType: soft
+
+"@taze-editor/plugins@workspace:packages/plugins":
+  version: 0.0.0-use.local
+  resolution: "@taze-editor/plugins@workspace:packages/plugins"
+  dependencies:
+    "@taze-editor/plugin-basic-marks": 0.2.0
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+    slate: ">=0.66.1"
+    slate-history: ">=0.66.0"
+    slate-react: ">=0.74.2"
   languageName: unknown
   linkType: soft
 
