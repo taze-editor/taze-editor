@@ -4,12 +4,18 @@ const sidebars = {
     {
       type: "category",
       label: "Taze",
+      collapsed: false,
       items: ["taze/introduction", "taze/contributing"]
     },
     {
       type: "category",
       label: "Getting Started",
-      items: ["getting-started/installation", "getting-started/create-editor"]
+      collapsed: false,
+      items: [
+        "getting-started/installation",
+        "getting-started/create-editor",
+        "getting-started/basic-plugins"
+      ]
     }
   ]
 };
