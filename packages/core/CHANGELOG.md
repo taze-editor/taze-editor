@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 0.5.3
+
+### Patch Changes
+
+- 44e1946: Remove dev logs
+
 ## 0.5.2
 
 ### Patch Changes

@@ -1,5 +1,14 @@
 # @taze-editor/taze
 
+## 0.5.3
+
+### Patch Changes
+
+- 44e1946: Remove dev logs
+- Updated dependencies [44e1946]
+  - @taze-editor/taze-core@0.5.3
+  - @taze-editor/taze-plugin-basic-marks@0.5.3
+
 ## 0.5.2
 
 ### Patch Changes
