@@ -4,6 +4,12 @@
 
 ### Patch Changes
 
+- b4baeab: Fix versions
+
+## 1.0.1
+
+### Patch Changes
+
 - 8845c8f: Update package naming convention
 
 ## 1.0.0
