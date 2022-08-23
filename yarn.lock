@@ -2805,9 +2805,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@taze-editor/core@workspace:packages/core":
+"@taze-editor/taze-core@workspace:packages/core":
   version: 0.0.0-use.local
-  resolution: "@taze-editor/core@workspace:packages/core"
+  resolution: "@taze-editor/taze-core@workspace:packages/core"
   dependencies:
     lodash: ^4.17.21
     use-deep-compare: ^1.1.0
@@ -2821,9 +2821,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@taze-editor/plugin-basic-marks@1.0.0, @taze-editor/plugin-basic-marks@workspace:packages/plugins/nodes/basic-marks":
+"@taze-editor/taze-plugin-basic-marks@1.0.0, @taze-editor/taze-plugin-basic-marks@workspace:packages/plugins/nodes/basic-marks":
   version: 0.0.0-use.local
-  resolution: "@taze-editor/plugin-basic-marks@workspace:packages/plugins/nodes/basic-marks"
+  resolution: "@taze-editor/taze-plugin-basic-marks@workspace:packages/plugins/nodes/basic-marks"
   peerDependencies:
     "@taze-editor/core": 1.0.0
     react: ">=16.8.0"
@@ -2834,11 +2834,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@taze-editor/plugins@workspace:packages/plugins":
+"@taze-editor/taze-plugins@workspace:packages/plugins":
   version: 0.0.0-use.local
-  resolution: "@taze-editor/plugins@workspace:packages/plugins"
+  resolution: "@taze-editor/taze-plugins@workspace:packages/plugins"
   dependencies:
-    "@taze-editor/plugin-basic-marks": 1.0.0
+    "@taze-editor/taze-plugin-basic-marks": 1.0.0
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
