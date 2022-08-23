@@ -2821,33 +2821,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@taze-editor/taze-plugin-basic-marks@1.0.0, @taze-editor/taze-plugin-basic-marks@workspace:packages/plugins/nodes/basic-marks":
-  version: 0.0.0-use.local
-  resolution: "@taze-editor/taze-plugin-basic-marks@workspace:packages/plugins/nodes/basic-marks"
-  peerDependencies:
-    "@taze-editor/taze-core": 1.0.0
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-    slate: ">=0.78.0"
-    slate-history: ">=0.66.0"
-    slate-react: ">=0.79.0"
-  languageName: unknown
-  linkType: soft
-
-"@taze-editor/taze-plugins@workspace:packages/plugins":
-  version: 0.0.0-use.local
-  resolution: "@taze-editor/taze-plugins@workspace:packages/plugins"
-  dependencies:
-    "@taze-editor/taze-plugin-basic-marks": 1.0.0
-  peerDependencies:
-    react: ">=16.8.0"
-    react-dom: ">=16.8.0"
-    slate: ">=0.66.1"
-    slate-history: ">=0.66.0"
-    slate-react: ">=0.74.2"
-  languageName: unknown
-  linkType: soft
-
 "@tootallnate/once@npm:1":
   version: 1.1.2
   resolution: "@tootallnate/once@npm:1.1.2"
