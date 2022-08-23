@@ -44,8 +44,6 @@ export const pipeRenderLeaf = <V extends Value>(
       ...dataAttrs
     };
 
-    console.warn("pipeRenderLeaf", { props });
-
     renderLeafs.forEach(renderLeaf => {
       const newChildren = renderLeaf(props as any);
 

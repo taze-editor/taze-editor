@@ -14,7 +14,6 @@ export const pipeDecorate = <V extends Value>(
   const decorates = editor.plugins.flatMap(
     plugin => plugin.decorate?.(editor, plugin) ?? []
   );
-  console.warn({ decorates });
   if (decorateProp) {
     decorates.push(decorateProp);
   }
