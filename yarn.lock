@@ -2838,6 +2838,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@taze-editor/taze-plugin-search-highlight@workspace:packages/taze-plugins/search-highlight"
   peerDependencies:
+    "@taze-editor/taze-core": 0.2.0
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
     slate: ">=0.66.1"
