@@ -9,8 +9,10 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
+  "dependencies": {
+    "@taze-editor/taze-core": "0.5.1"
+  },
   "peerDependencies": {
-    "@taze-editor/taze-core": "0.5.1",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
     "slate": ">=0.78.0",
