@@ -1,5 +1,14 @@
 # @taze-editor/taze
 
+## 0.5.4
+
+### Patch Changes
+
+- 5ad3dc1: Add placeholder prop to Taze component
+- Updated dependencies [5ad3dc1]
+  - @taze-editor/taze-core@0.5.4
+  - @taze-editor/taze-plugin-basic-marks@0.5.4
+
 ## 0.5.3
 
 ### Patch Changes
