@@ -1,6 +1,6 @@
 {
   "name": "@taze-editor/taze-plugin-search-highlight",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -9,7 +9,7 @@
   ],
   "types": "dist/index.d.ts",
   "peerDependencies": {
-    "@taze-editor/taze-core": "0.2.0",
+    "@taze-editor/taze-core": "0.5.1",
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0",
     "slate": ">=0.66.1",
