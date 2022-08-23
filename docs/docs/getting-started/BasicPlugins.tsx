@@ -1,5 +1,6 @@
 import React from "react";
 import { CommonSandpack } from "../components/sandpack";
+import { tazeVersion } from "../tazeVersion";
 
 const App = `import { useMemo } from "react";
 import { withReact } from "slate-react";
@@ -9,7 +10,7 @@ import {
   createTazeEditor, 
   Taze,
   TDescendant
-} from "@taze-editor/core";
+} from "@taze-editor/taze-core";
 
 import { 
   createBoldPlugin,
@@ -19,7 +20,7 @@ import {
   createSuperscriptPlugin,
   createSubscriptPlugin,
   createCodePlugin,
-} from "@taze-editor/plugins";
+} from "@taze-editor/taze-plugin-basic-marks";
 
 
 export default function App() {
@@ -64,7 +65,7 @@ export const BasicPlugins = () => {
         "/App.tsx": App
       }}
       deps={{
-        "@taze-editor/plugins": "^1.0.0"
+        "@taze-editor/taze-plugin-basic-marks": tazeVersion
       }}
     />
   );

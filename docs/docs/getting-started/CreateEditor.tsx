@@ -9,7 +9,7 @@ import {
   createTazeEditor, 
   Taze,
   TDescendant
-} from "@taze-editor/core";
+} from "@taze-editor/taze-core";
 
 
 export default function App() {

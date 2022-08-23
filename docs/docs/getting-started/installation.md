@@ -3,18 +3,20 @@ slug: /installation
 title: Installation
 ---
 
-## With all features
-
-You can install all the packages bundled together:
-
-```bash npm2yarn
-npm install @taze-editor/core @taze-editor/plugins
-```
-
-You will also need these peer dependencies:
+First of all, you need these peer dependencies installed:
 
 ```bash npm2yarn
 npm install slate slate-react slate-history react react-dom
+```
+
+Now you can choose between the following installation methods:
+
+## With all features
+
+You can install all the packages (core, plugins) bundled together:
+
+```bash npm2yarn
+npm install @taze-editor/taze
 ```
 
 ## With only plugins you choose
@@ -23,9 +25,11 @@ You also can install only the packages you need as listed in the following
 sections.
 
 ```bash npm2yarn
-# Basic Marks plugin
-npm install @taze-editor/plugin-basic-marks
+# Install core package
+npm install @taze-editor/taze-core
 
-# Search Highlight plugin
-npm install @taze-editor/plugin-search-highlight
+# then install the plugins you need
+
+npm install @taze-editor/taze-plugin-basic-marks
+npm install @taze-editor/taze-plugin-search-highlight
 ```
