@@ -1,1 +1,1 @@
-export * from "@taze-editor/plugin-basic-marks";
+export * from "@taze-editor/taze-plugin-basic-marks";
