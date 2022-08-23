@@ -1,6 +1,6 @@
 {
   "name": "@taze-editor/taze-plugins",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Taze Editor's plugins package",
   "author": "Kerim Çetintaş <kerimcetintas@gmail.com>",
   "license": "MIT",
@@ -14,7 +14,7 @@
     "dist"
   ],
   "dependencies": {
-    "@taze-editor/taze-plugin-basic-marks": "1.0.0"
+    "@taze-editor/taze-plugin-basic-marks": "1.0.1"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
