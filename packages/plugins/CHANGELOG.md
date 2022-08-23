@@ -4,6 +4,14 @@
 
 ### Patch Changes
 
+- b4baeab: Fix versions
+- Updated dependencies [b4baeab]
+  - @taze-editor/taze-plugin-basic-marks@1.0.1
+
+## 1.0.1
+
+### Patch Changes
+
 - 8845c8f: Update package naming convention
 - Updated dependencies [8845c8f]
   - @taze-editor/taze-plugin-basic-marks@1.0.1
