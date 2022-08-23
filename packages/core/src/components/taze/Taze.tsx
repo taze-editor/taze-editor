@@ -30,6 +30,10 @@ export type TazeProps<
    * Custom `Editable` node.
    */
   renderEditable?: (props: TEditableProps) => React.ReactNode;
+  /**
+   * `Editable` placeholder.
+   */
+  placeholder?: string;
 };
 
 export const Taze = ({
@@ -38,6 +42,7 @@ export const Taze = ({
   initialValue = [{ type: "p", children: [{ text: "" }] }],
   editableRef,
   renderEditable,
+  placeholder,
   ...options
 }: TazeProps) => {
   const { slateProps, editableProps } = useTaze({ editor, initialValue });
@@ -46,7 +51,11 @@ export const Taze = ({
       {renderEditable ? (
         renderEditable({ ...(editableProps as any), ref: editableRef })
       ) : (
-        <Editable ref={editableRef} {...(editableProps as any)} />
+        <Editable
+          ref={editableRef}
+          placeholder={placeholder}
+          {...(editableProps as any)}
+        />
       )}
       {children}
     </Slate>
