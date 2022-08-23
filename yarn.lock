@@ -2834,6 +2834,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@taze-editor/taze-plugin-search-highlight@workspace:packages/taze-plugins/search-highlight":
+  version: 0.0.0-use.local
+  resolution: "@taze-editor/taze-plugin-search-highlight@workspace:packages/taze-plugins/search-highlight"
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+    slate: ">=0.66.1"
+    slate-history: ">=0.66.0"
+    slate-react: ">=0.74.2"
+  languageName: unknown
+  linkType: soft
+
 "@taze-editor/taze@workspace:packages/taze":
   version: 0.0.0-use.local
   resolution: "@taze-editor/taze@workspace:packages/taze"
