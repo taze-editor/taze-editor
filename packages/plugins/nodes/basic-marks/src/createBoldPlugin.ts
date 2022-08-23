@@ -2,7 +2,7 @@ import {
   createPluginFactory,
   onKeyDownToggleMark,
   ToggleMarkPlugin
-} from "@taze-editor/core";
+} from "@taze-editor/taze-core";
 import { Bold } from "./components/Bold";
 
 export const MARK_BOLD = "bold";

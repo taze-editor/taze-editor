@@ -1,5 +1,5 @@
 import React from "react";
-import { TazeRenderLeafProps } from "@taze-editor/core";
+import { TazeRenderLeafProps } from "@taze-editor/taze-core";
 
 export const Subscript = ({
   attributes,

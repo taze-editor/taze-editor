@@ -2,7 +2,7 @@ import {
   createPluginFactory,
   onKeyDownToggleMark,
   ToggleMarkPlugin
-} from "@taze-editor/core";
+} from "@taze-editor/taze-core";
 import { Strikethrough } from "./components/Strikethrough";
 
 export const MARK_STRIKETHROUGH = "strikethrough";

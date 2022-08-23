@@ -2,7 +2,7 @@ import {
   createPluginFactory,
   onKeyDownToggleMark,
   ToggleMarkPlugin
-} from "@taze-editor/core";
+} from "@taze-editor/taze-core";
 import { Italic } from "./components/Italic";
 
 export const MARK_ITALIC = "italic";

@@ -2825,7 +2825,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@taze-editor/taze-plugin-basic-marks@workspace:packages/plugins/nodes/basic-marks"
   peerDependencies:
-    "@taze-editor/core": 1.0.0
+    "@taze-editor/taze-core": 1.0.0
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
     slate: ">=0.78.0"

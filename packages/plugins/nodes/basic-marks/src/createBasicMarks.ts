@@ -1,4 +1,4 @@
-import { createPluginFactory } from "@taze-editor/core";
+import { createPluginFactory } from "@taze-editor/taze-core";
 import { createBoldPlugin } from "./createBoldPlugin";
 import { createCodePlugin } from "./createCodePlugin";
 import { createItalicPlugin } from "./createItalicPlugin";

@@ -2,7 +2,7 @@ import {
   createPluginFactory,
   onKeyDownToggleMark,
   ToggleMarkPlugin
-} from "@taze-editor/core";
+} from "@taze-editor/taze-core";
 import { Superscript } from "./components/Superscript";
 
 export const MARK_SUPERSCRIPT = "superscript";

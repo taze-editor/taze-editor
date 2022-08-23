@@ -2,7 +2,7 @@ import {
   createPluginFactory,
   onKeyDownToggleMark,
   ToggleMarkPlugin
-} from "@taze-editor/core";
+} from "@taze-editor/taze-core";
 import { Subscript } from "./components/Subscript";
 
 export const MARK_SUBSCRIPT = "subscript";
