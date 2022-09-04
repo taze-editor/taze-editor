@@ -1,6 +1,6 @@
 {
   "name": "@taze-editor/taze",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "A basic marks plugin for Taze Editor",
   "license": "MIT",
   "main": "dist/index.js",
@@ -10,8 +10,8 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@taze-editor/taze-core": "^0.6.0",
-    "@taze-editor/taze-plugin-basic-marks": "^0.6.0"
+    "@taze-editor/taze-core": "^0.7.0",
+    "@taze-editor/taze-plugin-basic-marks": "^0.7.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
