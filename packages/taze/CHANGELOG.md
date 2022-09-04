@@ -1,5 +1,17 @@
 # @taze-editor/taze
 
+## 0.7.0
+
+### Minor Changes
+
+- 0a65191: Add `beforeEditable` and `afterEditable` props for `Taze` component - which can be used for toolbars 🧰
+
+### Patch Changes
+
+- Updated dependencies [0a65191]
+  - @taze-editor/taze-core@0.7.0
+  - @taze-editor/taze-plugin-basic-marks@0.7.0
+
 ## 0.6.0
 
 ### Minor Changes
