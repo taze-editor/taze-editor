@@ -1,5 +1,16 @@
 # @taze-editor/taze-plugin-basic-marks
 
+## 0.6.0
+
+### Minor Changes
+
+- e4b8e78: Add `useSlate` hook
+
+### Patch Changes
+
+- Updated dependencies [e4b8e78]
+  - @taze-editor/taze-core@0.6.0
+
 ## 0.5.4
 
 ### Patch Changes
