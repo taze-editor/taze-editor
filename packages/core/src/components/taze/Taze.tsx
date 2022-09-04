@@ -34,6 +34,14 @@ export type TazeProps<
    * `Editable` placeholder.
    */
   placeholder?: string;
+  /**
+   * A component which placed before `Editable`
+   */
+  beforeEditable?: React.ReactNode;
+  /**
+   * A component which placed after `Editable`
+   */
+  afterEditable?: React.ReactNode;
 };
 
 export const Taze = ({
@@ -43,11 +51,14 @@ export const Taze = ({
   editableRef,
   renderEditable,
   placeholder,
+  beforeEditable,
+  afterEditable,
   ...options
 }: TazeProps) => {
   const { slateProps, editableProps } = useTaze({ editor, initialValue });
   return (
     <Slate editor={editor} {...(slateProps as any)}>
+      {beforeEditable}
       {renderEditable ? (
         renderEditable({ ...(editableProps as any), ref: editableRef })
       ) : (
@@ -58,6 +69,7 @@ export const Taze = ({
         />
       )}
       {children}
+      {afterEditable}
     </Slate>
   );
 };
