@@ -1,5 +1,13 @@
 # @taze-editor/taze-plugin-search-highlight
 
+## 0.7.2
+
+### Patch Changes
+
+- 9e292d0: Fix barrels conflict
+- Updated dependencies [9e292d0]
+  - @taze-editor/taze-core@0.7.2
+
 ## 0.7.1
 
 ### Patch Changes
