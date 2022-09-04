@@ -1,1 +1,1 @@
-export const tazeVersion = "0.5.1";
+export const tazeVersion = "0.7.2";
