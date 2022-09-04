@@ -11,7 +11,8 @@
   "types": "dist/index.d.ts",
   "dependencies": {
     "@taze-editor/taze-core": "^0.7.1",
-    "@taze-editor/taze-plugin-basic-marks": "^0.7.1"
+    "@taze-editor/taze-plugin-basic-marks": "^0.7.1",
+    "@taze-editor/taze-plugin-search-highlight": "^0.7.1"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
