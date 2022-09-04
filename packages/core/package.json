@@ -1,6 +1,6 @@
 {
   "name": "@taze-editor/taze-core",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Taze Editor's core package",
   "author": "Kerim Çetintaş <kerimcetintas@gmail.com>",
   "license": "MIT",

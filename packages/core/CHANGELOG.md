@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 0.7.1
+
+### Patch Changes
+
+- 63ab2f9: Fix `useSlate` hook export
+
 ## 0.7.0
 
 ### Minor Changes
