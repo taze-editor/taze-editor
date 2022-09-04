@@ -14,7 +14,8 @@ const sidebars = {
       items: [
         "getting-started/installation",
         "getting-started/create-editor",
-        "getting-started/basic-plugins"
+        "getting-started/basic-plugins",
+        "getting-started/create-toolbar"
       ]
     }
   ]
