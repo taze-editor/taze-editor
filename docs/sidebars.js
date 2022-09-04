@@ -17,6 +17,12 @@ const sidebars = {
         "getting-started/basic-plugins",
         "getting-started/create-toolbar"
       ]
+    },
+    {
+      type: "category",
+      label: "Plugins",
+      collapsed: false,
+      items: ["plugins/introduction"]
     }
   ]
 };
