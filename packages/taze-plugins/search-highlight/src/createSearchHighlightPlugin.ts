@@ -7,7 +7,7 @@ import { SearchHighlightComponent } from "./SearchHighlightComponent";
 
 export const MARK_SEARCH_HIGHLIGHT = "search-highlight";
 
-export const createSearchPlugin = createPluginFactory<
+export const createSearchHighlightPlugin = createPluginFactory<
   {},
   Value,
   TazeEditor<Value>,
