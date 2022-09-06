@@ -1,5 +1,18 @@
 # @taze-editor/taze
 
+## 1.0.0
+
+### Major Changes
+
+- 9c5c37c: 🎉 Publish first major version of the packages
+
+### Patch Changes
+
+- Updated dependencies [9c5c37c]
+  - @taze-editor/taze-core@1.0.0
+  - @taze-editor/taze-plugin-basic-marks@1.0.0
+  - @taze-editor/taze-plugin-search-highlight@1.0.0
+
 ## 0.7.2
 
 ### Patch Changes
