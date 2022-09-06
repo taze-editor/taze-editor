@@ -1,5 +1,15 @@
 # @taze-editor/taze
 
+## 1.0.1
+
+### Patch Changes
+
+- 8f2a040: Fix yarn.lock file
+- Updated dependencies [8f2a040]
+  - @taze-editor/taze-core@1.0.1
+  - @taze-editor/taze-plugin-basic-marks@1.0.1
+  - @taze-editor/taze-plugin-search-highlight@1.0.1
+
 ## 1.0.0
 
 ### Major Changes
