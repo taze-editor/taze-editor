@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.0.0
+
+### Major Changes
+
+- 9c5c37c: 🎉 Publish first major version of the packages
+
 ## 0.7.2
 
 ### Patch Changes
