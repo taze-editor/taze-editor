@@ -7,7 +7,7 @@ import { TazeEditor } from "../../types/taze/TazeEditor";
  * Needs to be called in a child component of `Taze`.
  */
 
-export const useSlate = <
+export const useEditorState = <
   V extends Value = Value,
   E extends TazeEditor<V> = TazeEditor<V>
 >() => (useSlateReact() as unknown) as E;
