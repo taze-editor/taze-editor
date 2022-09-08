@@ -1,4 +1,1 @@
-export {
-  default as createPluginStore,
-  type StoreApi as TPluginStoreApi
-} from "zustand";
+export { default as createPluginStore } from "zustand";
