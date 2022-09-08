@@ -7,11 +7,11 @@ import {
 } from "@taze-editor/taze-core";
 import { TSearchPluginStore } from "./types/store";
 
-export const decorateSearch = <
+export const decorateSearchHighlight = <
   V extends Value = Value,
   E extends TazeEditor<V> = TazeEditor<V>
 >(
-  _editor: E,
+  editor: E,
   plugin: WithTazePlugin<{}, V, E, TSearchPluginStore>
 ): DecorateEntry => ([node, path]: TNodeEntry) => {
   const { store } = plugin;
@@ -22,8 +22,18 @@ export const decorateSearch = <
     getSearchRanges,
     searchParams,
     searchMatchedRanges,
-    searchStep
+    searchStep,
+    setSearchStep,
+    getAllSearchRanges,
+    setSearchMatchedRanges,
+    getNextSearchMatchStep
   } = store.getState();
+
+  const ranges = getAllSearchRanges(editor, searchParams);
+  setSearchMatchedRanges(ranges);
+
+  const step = getNextSearchMatchStep(editor, ranges);
+  setSearchStep(step);
 
   return getSearchRanges(
     node,
