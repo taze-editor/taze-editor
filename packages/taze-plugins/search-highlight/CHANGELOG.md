@@ -1,5 +1,13 @@
 # @taze-editor/taze-plugin-search-highlight
 
+## 1.0.2
+
+### Patch Changes
+
+- 1676848: Fix plugin store types and `search-highlight` plugin decorator logic
+- Updated dependencies [1676848]
+  - @taze-editor/taze-core@1.0.2
+
 ## 1.0.1
 
 ### Patch Changes
