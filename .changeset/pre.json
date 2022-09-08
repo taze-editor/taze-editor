@@ -1,0 +1,13 @@
+{
+  "mode": "pre",
+  "tag": "dev",
+  "initialVersions": {
+    "@taze-editor/taze-core": "1.0.1",
+    "@taze-editor/taze": "1.0.1",
+    "@taze-editor/taze-plugin-basic-marks": "1.0.1",
+    "@taze-editor/taze-plugin-search-highlight": "1.0.1"
+  },
+  "changesets": [
+    "short-suns-beam"
+  ]
+}

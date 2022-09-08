@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.0.2-dev.0
+
+### Patch Changes
+
+- 5a41e5f: Fix plugin store types and `search-highlight` plugin decorator logic
+
 ## 1.0.1
 
 ### Patch Changes
