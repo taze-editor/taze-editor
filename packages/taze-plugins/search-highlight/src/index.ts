@@ -4,6 +4,6 @@
 
 export * from './SearchHighlightComponent';
 export * from './createSearchHighlightPlugin';
-export * from './decorateSearch';
+export * from './decorateSearchHighlight';
 export * from './useSearchHighlightPluginStore';
 export * from './types/index';
