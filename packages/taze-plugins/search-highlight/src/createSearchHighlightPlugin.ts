@@ -31,11 +31,16 @@ export const createSearchHighlightPlugin = createPluginFactory<
       const {
         getAllSearchRanges,
         setSearchMatchedRanges,
-        searchParams
+        searchParams,
+        getNextSearchMatchStep,
+        setSearchStep
       } = store.getState();
 
       const ranges = getAllSearchRanges(editor, searchParams);
       setSearchMatchedRanges(ranges);
+
+      const step = getNextSearchMatchStep(editor, ranges);
+      setSearchStep(step);
     }
   },
   decorate: decorateSearchHighlight

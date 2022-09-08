@@ -22,18 +22,8 @@ export const decorateSearchHighlight = <
     getSearchRanges,
     searchParams,
     searchMatchedRanges,
-    searchStep,
-    setSearchStep,
-    getAllSearchRanges,
-    setSearchMatchedRanges,
-    getNextSearchMatchStep
+    searchStep
   } = store.getState();
-
-  const ranges = getAllSearchRanges(editor, searchParams);
-  setSearchMatchedRanges(ranges);
-
-  const step = getNextSearchMatchStep(editor, ranges);
-  setSearchStep(step);
 
   return getSearchRanges(
     node,
