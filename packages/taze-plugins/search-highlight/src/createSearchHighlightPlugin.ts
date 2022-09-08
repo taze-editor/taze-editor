@@ -1,6 +1,6 @@
 import { createPluginFactory, TazeEditor, Value } from "@taze-editor/taze-core";
 import { BaseEditor } from "slate";
-import { decorateSearch } from "./decorateSearch";
+import { decorateSearchHighlight } from "./decorateSearchHighlight";
 import { useSearchHighlightPluginStore } from "./useSearchHighlightPluginStore";
 import { TSearchPluginStore } from "./types/store";
 import { SearchHighlightComponent } from "./SearchHighlightComponent";
@@ -39,5 +39,5 @@ export const createSearchHighlightPlugin = createPluginFactory<
       setSearchMatchedRanges(ranges);
     }
   },
-  decorate: decorateSearch
+  decorate: decorateSearchHighlight
 });
