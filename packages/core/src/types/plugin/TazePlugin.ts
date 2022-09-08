@@ -1,4 +1,3 @@
-import { StoreApi } from "zustand";
 import { Value } from "../../slate/editor/TEditor";
 import { AnyObject } from "../misc/AnyObject";
 import { TazeEditor } from "../taze/TazeEditor";
@@ -6,6 +5,7 @@ import { Decorate } from "./Decorate";
 import { DOMHandlers } from "./DOMHandlers";
 import { TazePluginComponent } from "./TazePluginComponent";
 import { TazePluginKey } from "./TazePluginKey";
+import { TazePluginStore } from "./TazePluginStore";
 import { TazePluginProps } from "./TazePluginProps";
 
 /**
@@ -20,11 +20,11 @@ export type TazePlugin<
   /**
    * Plugin store api that stores plugin related context
    */
-  store?: StoreApi<S>;
+  store?: TazePluginStore<S>;
   /**
    *
    */
-  onChange?: (editor: E, store?: StoreApi<S>) => (value: V) => void;
+  onChange?: (editor: E, store?: TazePluginStore<S>) => (value: V) => void;
   /**
    * Handlers called whenever the corresponding event occurs in the editor.
    * Event handlers can return a boolean flag to specify whether the event can be treated as being handled.
