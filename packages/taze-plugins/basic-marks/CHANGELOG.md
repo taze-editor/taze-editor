@@ -1,5 +1,13 @@
 # @taze-editor/taze-plugin-basic-marks
 
+## 1.1.2
+
+### Patch Changes
+
+- 25c3c55: Fix set search step after replace if `searchMatchedRanges` length bigger than search step
+- Updated dependencies [25c3c55]
+  - @taze-editor/taze-core@1.1.2
+
 ## 1.1.1
 
 ### Patch Changes

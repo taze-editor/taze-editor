@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.1.2
+
+### Patch Changes
+
+- 25c3c55: Fix set search step after replace if `searchMatchedRanges` length bigger than search step
+
 ## 1.1.1
 
 ### Patch Changes
