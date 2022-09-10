@@ -1,5 +1,16 @@
 # @taze-editor/taze-plugin-basic-marks
 
+## 1.1.0
+
+### Minor Changes
+
+- 0cdad77: Add `useSearchHighlightEffect` hook
+
+### Patch Changes
+
+- Updated dependencies [0cdad77]
+  - @taze-editor/taze-core@1.1.0
+
 ## 1.0.2
 
 ### Patch Changes
