@@ -22,7 +22,15 @@ const sidebars = {
       type: "category",
       label: "Plugins",
       collapsed: false,
-      items: ["plugins/introduction"]
+      items: [
+        "plugins/introduction",
+        {
+          type: "category",
+          label: "Decorators",
+          collapsed: false,
+          items: ["plugins/search-highlight-plugin"]
+        }
+      ]
     }
   ]
 };
