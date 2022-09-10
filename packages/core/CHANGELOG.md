@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.1.0
+
+### Minor Changes
+
+- 0cdad77: Add `useSearchHighlightEffect` hook
+
 ## 1.0.2
 
 ### Patch Changes
