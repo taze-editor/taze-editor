@@ -98,7 +98,13 @@ export const useSearchHighlightPluginStore = createPluginStore<TSearchPluginStor
       return ranges;
     },
     replaceOne: editor => {
-      const { searchMatchedRanges, searchStep, replaceQuery } = get();
+      const {
+        searchMatchedRanges,
+        searchStep,
+        replaceQuery,
+        setSearchStep
+      } = get();
+
       const focusedRange = searchMatchedRanges[searchStep];
 
       Transforms.insertText(editor, replaceQuery, {
@@ -107,6 +113,10 @@ export const useSearchHighlightPluginStore = createPluginStore<TSearchPluginStor
           focus: focusedRange.focus
         }
       });
+
+      if (searchMatchedRanges.length >= searchStep) {
+        setSearchStep(0);
+      }
     },
     replaceAll: editor => {
       const { searchMatchedRanges, replaceQuery } = get();
