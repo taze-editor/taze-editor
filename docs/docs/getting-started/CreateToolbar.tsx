@@ -82,7 +82,7 @@ export const CreateToolbar = () => {
 };
 
 const ToolbarButton = `import { styled, composeAll } from "@desygna/desygna-core";
-import { isMarkActive, toggleMark, useSlate } from "@taze-editor/taze-core";
+import { isMarkActive, toggleMark, useEditorState } from "@taze-editor/taze-core";
 import { useCallback } from "react";
 
 export type ToolbarButtonType = {
@@ -107,7 +107,7 @@ export const ToolbarButton = styled.button<ToolbarButtonType>(
 `;
 
 const ToolbarMarkButton = `import { useCallback } from "react"; 
-import { isMarkActive, toggleMark, useSlate } from "@taze-editor/taze-core";
+import { isMarkActive, toggleMark, useEditorState } from "@taze-editor/taze-core";
 
 import { ToolbarButton } from "./ToolbarButton";
 
@@ -120,7 +120,7 @@ export const ToolbarMarkButton = ({
   clear: string | string[],
   children: React.ReactNode;
 }) => {
-  const editor = useSlate();
+  const editor = useEditorState();
 
   const toggle = useCallback(
     (e: React.MouseEvent<HTMLButtonElement>) => {
