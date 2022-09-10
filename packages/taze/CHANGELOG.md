@@ -1,5 +1,15 @@
 # @taze-editor/taze
 
+## 1.1.1
+
+### Patch Changes
+
+- 0897ac9: Fix `search-highlight` plugin decorator function which causes infinite loop
+- Updated dependencies [0897ac9]
+  - @taze-editor/taze-core@1.1.1
+  - @taze-editor/taze-plugin-basic-marks@1.1.1
+  - @taze-editor/taze-plugin-search-highlight@1.1.1
+
 ## 1.1.0
 
 ### Minor Changes
