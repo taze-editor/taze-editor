@@ -74,20 +74,6 @@ const Styled = `import { styled, composeAll } from "@desygna/desygna";
 
 export const Div = styled.div(composeAll);
 
-export const Input = styled.input({
-  width: "100%",
-  height: "24px",
-  border: "1px solid #f1f3f5",
-  borderRadius: "8px",
-  padding: "0px 4px",
-  "&:focus": {
-    outline: "none"
-  },
-  "&::placeholder": {
-    color: "#d7dbdf"
-  }
-}, composeAll);
-
 export type ToolbarButtonType = {
   isActive?: boolean;
 };
