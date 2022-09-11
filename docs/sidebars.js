@@ -28,7 +28,10 @@ const sidebars = {
           type: "category",
           label: "Basic Elements",
           collapsed: false,
-          items: ["plugins/basic-elements/headings"]
+          items: [
+            "plugins/basic-elements/headings"
+            // "plugins/basic-elements/blockquote"
+          ]
         },
         {
           type: "category",
