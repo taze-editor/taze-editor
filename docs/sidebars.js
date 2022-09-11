@@ -24,6 +24,7 @@ const sidebars = {
       collapsed: false,
       items: [
         "plugins/introduction",
+        "plugins/customization",
         {
           type: "category",
           label: "Basic Elements",
