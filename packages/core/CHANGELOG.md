@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.4.0
+
+### Minor Changes
+
+- 924b6e4: Add `blockquote` plugin
+
 ## 1.3.0
 
 ### Minor Changes
