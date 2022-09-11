@@ -5,7 +5,7 @@ import {
 import { H3 } from "./components/H3";
 import { ELEMENT_H3 } from "./constants";
 
-export const createHeadingOnePlugin = createPluginFactory({
+export const createHeadingThreePlugin = createPluginFactory({
   key: ELEMENT_H3,
   type: ELEMENT_H3,
   isElement: true,
