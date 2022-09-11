@@ -37,7 +37,7 @@ const sidebars = {
           type: "category",
           label: "Decorators",
           collapsed: false,
-          items: ["plugins/search-highlight-plugin"]
+          items: ["plugins/decorators/search-highlight-plugin"]
         }
       ]
     }
