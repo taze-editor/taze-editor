@@ -39,6 +39,24 @@ const sidebars = {
           label: "Decorators",
           collapsed: false,
           items: ["plugins/decorators/search-highlight-plugin"]
+        },
+        {
+          type: "html",
+          value: `<div class='taze-docs-mt-sidebar-custom-link theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__link'>
+              Balloon Toolbar <button class='taze-docs-sidebar-soon-button'>soon</button>
+              </div>`
+        },
+        {
+          type: "html",
+          value: `<div class='taze-docs-mt-sidebar-custom-link theme-doc-sidebar-item-category theme-doc-sidebar-item-level-1 menu__list-item menu__link'>
+              Drag & Drop <button class='taze-docs-sidebar-soon-button'>soon</button>
+              </div>`
+        },
+        {
+          type: "html",
+          value: `<div class='taze-docs-mt-sidebar-custom-link theme-doc-sidebar-item-category theme-doc-sidebar-item-level-1 menu__list-item menu__link'>
+              Media Embeds <button class='taze-docs-sidebar-soon-button'>soon</button>
+              </div>`
         }
       ]
     }
