@@ -1,5 +1,11 @@
 # @taze-editor/taze
 
+## 1.3.0
+
+### Minor Changes
+
+- 0b81f4b: Bump versions
+
 ## 1.1.2
 
 ### Patch Changes
