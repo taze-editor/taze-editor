@@ -6,6 +6,7 @@ export const H2 = ({
   children,
   editor,
   nodeProps,
+  element,
   ...props
 }: TazeRenderElementProps) => {
   return (
