@@ -3,4 +3,6 @@
  */
 
 export * from './removeMark';
+export * from './setElements';
 export * from './toggleMark';
+export * from './toggleNodeType';

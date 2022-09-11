@@ -11,3 +11,4 @@ export * from './TazeEditor';
 export * from './TazeRenderElementProps';
 export * from './TazeRenderLeafProps';
 export * from './TazeRenderNodeProps';
+export * from './node.types';
