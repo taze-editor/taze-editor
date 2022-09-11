@@ -1,5 +1,13 @@
 # @taze-editor/taze-plugin-basic-marks
 
+## 1.4.1
+
+### Patch Changes
+
+- e3ef9c0: Fix exports
+- Updated dependencies [e3ef9c0]
+  - @taze-editor/taze-core@1.4.1
+
 ## 1.4.0
 
 ### Minor Changes

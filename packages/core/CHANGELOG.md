@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.4.1
+
+### Patch Changes
+
+- e3ef9c0: Fix exports
+
 ## 1.4.0
 
 ### Minor Changes
