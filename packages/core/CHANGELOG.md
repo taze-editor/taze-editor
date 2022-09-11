@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.3.0
+
+### Minor Changes
+
+- c994fd9: Add `headings` plugin
+
 ## 1.2.0
 
 ### Minor Changes
