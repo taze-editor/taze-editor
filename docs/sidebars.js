@@ -26,6 +26,12 @@ const sidebars = {
         "plugins/introduction",
         {
           type: "category",
+          label: "Basic Elements",
+          collapsed: false,
+          items: ["plugins/basic-elements/headings"]
+        },
+        {
+          type: "category",
           label: "Decorators",
           collapsed: false,
           items: ["plugins/search-highlight-plugin"]
