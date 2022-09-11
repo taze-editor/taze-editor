@@ -1,5 +1,15 @@
 # @taze-editor/taze-core
 
+## 1.2.0
+
+### Minor Changes
+
+- d78ea10: Add slate helpers (`getNodeEntries`, `isBlock`, `unhangRange`)
+- 8cc6d8c: Add new queries (`findNode`, `someNode`, `match`)
+- 0709147: Add plugin utils for `taze`
+- 61bc6bd: Add `toggleNodeType` transformer and helpers
+- 141c8e2: Add `onKeyDownToggleElement` plugin helper
+
 ## 1.1.2
 
 ### Patch Changes
