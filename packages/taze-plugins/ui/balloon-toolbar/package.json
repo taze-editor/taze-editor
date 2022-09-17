@@ -1,0 +1,28 @@
+{
+  "name": "@taze-editor/taze-ui-balloon-toolbar",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@taze-editor/taze-core": "1.5.1"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "slate": ">=0.66.1",
+    "slate-history": ">=0.66.0",
+    "slate-react": ">=0.74.2"
+  },
+  "keywords": [
+    "plugin",
+    "slate"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
