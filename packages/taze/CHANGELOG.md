@@ -1,5 +1,16 @@
 # @taze-editor/taze
 
+## 1.5.1
+
+### Patch Changes
+
+- 6fb4eee: Fix barrels
+- Updated dependencies [6fb4eee]
+  - @taze-editor/taze-core@1.5.1
+  - @taze-editor/taze-plugin-basic-elements@1.5.1
+  - @taze-editor/taze-plugin-basic-marks@1.5.1
+  - @taze-editor/taze-plugin-search-highlight@1.5.1
+
 ## 1.5.0
 
 ### Minor Changes

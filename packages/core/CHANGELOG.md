@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.5.1
+
+### Patch Changes
+
+- 6fb4eee: Fix barrels
+
 ## 1.5.0
 
 ### Minor Changes
