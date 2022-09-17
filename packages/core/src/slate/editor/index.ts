@@ -4,6 +4,7 @@
 
 export * from './TEditor';
 export * from './addMark';
+export * from './getEditorString';
 export * from './getMarks';
 export * from './getNodeEntries';
 export * from './isBlock';
