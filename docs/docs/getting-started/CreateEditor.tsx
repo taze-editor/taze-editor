@@ -1,5 +1,5 @@
 import React from "react";
-import { CommonSandpack } from "../components/sandpack";
+import { CommonSandpack } from "@site/components/sandpack";
 
 const App = `import { useMemo } from "react";
 import { withReact } from "slate-react";

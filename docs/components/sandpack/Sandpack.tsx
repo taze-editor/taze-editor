@@ -2,7 +2,7 @@ import React from "react";
 import { Sandpack } from "@codesandbox/sandpack-react";
 import { monokaiPro } from "@codesandbox/sandpack-themes";
 import { rootCode } from "./rootCode";
-import { tazeVersion } from "@site/docs/tazeVersion";
+import { tazeVersion } from "@site/tazeVersion";
 
 export interface CommonSandpackProps {
   files?: Record<string, string>;

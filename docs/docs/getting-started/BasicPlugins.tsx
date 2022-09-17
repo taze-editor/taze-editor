@@ -1,6 +1,6 @@
 import React from "react";
-import { CommonSandpack } from "../components/sandpack";
-import { tazeVersion } from "../tazeVersion";
+import { CommonSandpack } from "@site/components/sandpack";
+import { tazeVersion } from "@site/tazeVersion";
 
 const App = `import { useMemo } from "react";
 import { withReact } from "slate-react";
