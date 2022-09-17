@@ -1,6 +1,6 @@
 {
   "name": "@taze-editor/taze-ui-balloon-toolbar",
-  "version": "0.0.0",
+  "version": "1.6.0",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -9,7 +9,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@taze-editor/taze-core": "1.5.1"
+    "@taze-editor/taze-core": "1.6.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
