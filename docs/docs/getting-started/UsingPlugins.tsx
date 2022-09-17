@@ -58,7 +58,7 @@ export default function App() {
   );
 }`;
 
-export const BasicPlugins = () => {
+export const UsingPlugins = () => {
   return (
     <CommonSandpack
       files={{

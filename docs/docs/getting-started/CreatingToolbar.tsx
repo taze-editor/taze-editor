@@ -62,7 +62,7 @@ export default function App() {
   );
 }`;
 
-export const CreateToolbar = () => {
+export const CreatingToolbar = () => {
   return (
     <CommonSandpack
       files={{
