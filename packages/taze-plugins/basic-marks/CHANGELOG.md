@@ -1,5 +1,16 @@
 # @taze-editor/taze-plugin-basic-marks
 
+## 1.5.0
+
+### Minor Changes
+
+- 3df010a: Add `getEditorString` and `isCollapsed` utilities
+
+### Patch Changes
+
+- Updated dependencies [3df010a]
+  - @taze-editor/taze-core@1.5.0
+
 ## 1.4.1
 
 ### Patch Changes
