@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.5.0
+
+### Minor Changes
+
+- 3df010a: Add `getEditorString` and `isCollapsed` utilities
+
 ## 1.4.1
 
 ### Patch Changes
