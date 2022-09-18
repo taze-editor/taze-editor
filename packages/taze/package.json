@@ -13,7 +13,8 @@
     "@taze-editor/taze-core": "1.6.0",
     "@taze-editor/taze-plugin-basic-elements": "1.6.0",
     "@taze-editor/taze-plugin-basic-marks": "1.6.0",
-    "@taze-editor/taze-plugin-search-highlight": "1.6.0"
+    "@taze-editor/taze-plugin-search-highlight": "1.6.0",
+    "@taze-editor/taze-ui-balloon-toolbar": "1.6.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
