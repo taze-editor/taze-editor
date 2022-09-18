@@ -1,7 +1,7 @@
 {
   "name": "@taze-editor/taze",
   "version": "1.6.0",
-  "description": "A basic marks plugin for Taze Editor",
+  "description": "Taze Editor - create your rich text editor easily",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -24,8 +24,16 @@
     "slate-react": ">=0.79.0"
   },
   "keywords": [
+    "contentEditable",
+    "editor",
+    "framework",
+    "html",
+    "taze",
     "plugin",
-    "slate"
+    "rich text",
+    "slate",
+    "taze",
+    "wysiwyg"
   ],
   "publishConfig": {
     "access": "public"

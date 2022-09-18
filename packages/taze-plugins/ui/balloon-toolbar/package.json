@@ -1,5 +1,6 @@
 {
   "name": "@taze-editor/taze-ui-balloon-toolbar",
+  "description": "Balloon toolbar UI plugin for Taze Editor",
   "version": "1.6.0",
   "license": "MIT",
   "main": "dist/index.js",
@@ -19,8 +20,9 @@
     "slate-react": ">=0.74.2"
   },
   "keywords": [
-    "plugin",
-    "slate"
+    "balloon toolbar",
+    "slate",
+    "taze"
   ],
   "publishConfig": {
     "access": "public"

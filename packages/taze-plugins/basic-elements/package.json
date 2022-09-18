@@ -1,6 +1,7 @@
 {
   "name": "@taze-editor/taze-plugin-basic-elements",
   "version": "1.6.0",
+  "description": "Basic elements plugin for Taze Editor (includes headings, blockquote etc.)",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -19,9 +20,9 @@
     "slate-react": ">=0.74.2"
   },
   "keywords": [
-    "taze",
-    "plugin",
-    "slate"
+    "basic elements",
+    "slate",
+    "taze"
   ],
   "publishConfig": {
     "access": "public"

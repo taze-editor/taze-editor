@@ -1,7 +1,7 @@
 {
   "name": "@taze-editor/taze-plugin-basic-marks",
   "version": "1.6.0",
-  "description": "A basic marks plugin for Taze Editor",
+  "description": "Basic marks plugin for Taze Editor (includes bold, italic, underline etc.)",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -20,8 +20,9 @@
     "slate-react": ">=0.79.0"
   },
   "keywords": [
-    "plugin",
-    "slate"
+    "basic marks",
+    "slate",
+    "taze"
   ],
   "publishConfig": {
     "access": "public"

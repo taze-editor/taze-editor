@@ -1,7 +1,7 @@
 {
   "name": "@taze-editor/taze-core",
   "version": "1.6.0",
-  "description": "Taze Editor's core package",
+  "description": "Taze Editor's core package - makes easier to create rich text editor",
   "author": "Kerim Çetintaş <kerimcetintas@gmail.com>",
   "license": "MIT",
   "publishConfig": {
@@ -34,6 +34,7 @@
     "plugin",
     "rich text",
     "slate",
+    "taze",
     "wysiwyg"
   ]
 }

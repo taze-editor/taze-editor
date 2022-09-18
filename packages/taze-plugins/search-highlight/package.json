@@ -1,5 +1,6 @@
 {
   "name": "@taze-editor/taze-plugin-search-highlight",
+  "description": "Search and highlight plugin for Taze Editor",
   "version": "1.6.0",
   "license": "MIT",
   "main": "dist/index.js",
@@ -19,9 +20,9 @@
     "slate-react": ">=0.74.2"
   },
   "keywords": [
-    "plate",
-    "plugin",
-    "slate"
+    "search highlight",
+    "slate",
+    "taze"
   ],
   "publishConfig": {
     "access": "public"
