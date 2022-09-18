@@ -1,5 +1,13 @@
 # @taze-editor/taze-plugin-basic-elements
 
+## 1.6.1
+
+### Patch Changes
+
+- 3fae89c: Export `balloon-toolbar` package from `taze`
+- Updated dependencies [3fae89c]
+  - @taze-editor/taze-core@1.6.1
+
 ## 1.6.0
 
 ### Minor Changes
