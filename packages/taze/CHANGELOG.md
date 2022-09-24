@@ -1,5 +1,20 @@
 # @taze-editor/taze
 
+## 1.7.0
+
+### Minor Changes
+
+- bb991f9: Add `paragraph` element plugin
+
+### Patch Changes
+
+- Updated dependencies [bb991f9]
+  - @taze-editor/taze-core@1.7.0
+  - @taze-editor/taze-plugin-basic-elements@1.7.0
+  - @taze-editor/taze-plugin-basic-marks@1.7.0
+  - @taze-editor/taze-plugin-search-highlight@1.7.0
+  - @taze-editor/taze-ui-balloon-toolbar@1.7.0
+
 ## 1.6.2
 
 ### Patch Changes

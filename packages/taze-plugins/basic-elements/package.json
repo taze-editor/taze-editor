@@ -1,6 +1,6 @@
 {
   "name": "@taze-editor/taze-plugin-basic-elements",
-  "version": "1.6.2",
+  "version": "1.7.0",
   "description": "Basic elements plugin for Taze Editor (includes headings, blockquote etc.)",
   "license": "MIT",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@taze-editor/taze-core": "1.6.2"
+    "@taze-editor/taze-core": "1.7.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
