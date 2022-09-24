@@ -4,3 +4,4 @@
 
 export * from './blockquote/index';
 export * from './heading/index';
+export * from './paragraph/index';
