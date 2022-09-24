@@ -1,6 +1,6 @@
 {
   "name": "@taze-editor/taze-core",
-  "version": "1.6.2",
+  "version": "1.7.0",
   "description": "Taze Editor's core package - makes easier to create rich text editor",
   "author": "Kerim Çetintaş <kerimcetintas@gmail.com>",
   "license": "MIT",

@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.7.0
+
+### Minor Changes
+
+- bb991f9: Add `paragraph` element plugin
+
 ## 1.6.2
 
 ### Patch Changes

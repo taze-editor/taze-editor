@@ -1,7 +1,7 @@
 {
   "name": "@taze-editor/taze-plugin-search-highlight",
   "description": "Search and highlight plugin for Taze Editor",
-  "version": "1.6.2",
+  "version": "1.7.0",
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -10,7 +10,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@taze-editor/taze-core": "1.6.2"
+    "@taze-editor/taze-core": "1.7.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
