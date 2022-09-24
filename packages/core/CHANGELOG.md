@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.6.2
+
+### Patch Changes
+
+- 1162735: Fix `balloon-toolbar` export
+
 ## 1.6.1
 
 ### Patch Changes
