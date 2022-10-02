@@ -1,5 +1,20 @@
 # @taze-editor/taze
 
+## 1.8.0
+
+### Minor Changes
+
+- cc84b21: Add core plugins support for Taze. Implement override options for both plugins and editor.
+
+### Patch Changes
+
+- Updated dependencies [cc84b21]
+  - @taze-editor/taze-core@1.8.0
+  - @taze-editor/taze-plugin-basic-elements@1.8.0
+  - @taze-editor/taze-plugin-basic-marks@1.8.0
+  - @taze-editor/taze-plugin-search-highlight@1.8.0
+  - @taze-editor/taze-ui-balloon-toolbar@1.8.0
+
 ## 1.7.0
 
 ### Minor Changes
