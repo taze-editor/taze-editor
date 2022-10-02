@@ -42,6 +42,17 @@ export type TazeProps<
    * A component which placed after `Editable`
    */
   afterEditable?: React.ReactNode;
+  /**
+   * If `true`, disable all the core plugins.
+   * If an object, disable the core plugin properties that are `true` in the object.
+   */
+  disableCorePlugins?:
+    | {
+        inlineVoid?: boolean;
+        history?: boolean;
+        react?: boolean;
+      }
+    | boolean;
 };
 
 export const Taze = ({
