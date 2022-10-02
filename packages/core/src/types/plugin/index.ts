@@ -12,3 +12,4 @@ export * from './TazePluginKey';
 export * from './TazePluginProps';
 export * from './TazePluginStore';
 export * from './ToggleMarkPlugin';
+export * from './WithOverride';
