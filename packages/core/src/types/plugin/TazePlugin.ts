@@ -4,9 +4,10 @@ import { TazeEditor } from "../taze/TazeEditor";
 import { Decorate } from "./Decorate";
 import { DOMHandlers } from "./DOMHandlers";
 import { TazePluginComponent } from "./TazePluginComponent";
-import { TazePluginKey } from "./TazePluginKey";
+import { PluginKey, TazePluginKey } from "./TazePluginKey";
 import { TazePluginStore } from "./TazePluginStore";
 import { TazePluginProps } from "./TazePluginProps";
+import { WithOverride } from "./WithOverride";
 
 /**
  * The `TazePlugin` interface is a base interface for all plugins.
@@ -89,6 +90,14 @@ export type TazePlugin<
    * @default key
    */
   type?: string;
+  /**
+   * Property used by Plate to deeply override plugins by key.
+   */
+  overrideByKey?: Record<PluginKey, Partial<TazePlugin<PluginOptions, V, E>>>;
+  /**
+   * Editor method overriders.
+   */
+  withOverrides?: WithOverride<P, V, E>;
 };
 
 export type PluginOptions = AnyObject;
