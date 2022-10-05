@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.9.0
+
+### Minor Changes
+
+- 2b6a1e7: Add `reset-node` plugin
+
 ## 1.8.0
 
 ### Minor Changes

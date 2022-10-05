@@ -1,5 +1,20 @@
 # @taze-editor/taze
 
+## 1.9.0
+
+### Minor Changes
+
+- 2b6a1e7: Add `reset-node` plugin
+
+### Patch Changes
+
+- Updated dependencies [2b6a1e7]
+  - @taze-editor/taze-core@1.9.0
+  - @taze-editor/taze-plugin-basic-elements@1.9.0
+  - @taze-editor/taze-plugin-basic-marks@1.9.0
+  - @taze-editor/taze-plugin-search-highlight@1.9.0
+  - @taze-editor/taze-ui-balloon-toolbar@1.9.0
+
 ## 1.8.0
 
 ### Minor Changes
