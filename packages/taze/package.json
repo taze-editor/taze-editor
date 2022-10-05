@@ -1,6 +1,6 @@
 {
   "name": "@taze-editor/taze",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "Taze Editor - create your rich text editor easily",
   "license": "MIT",
   "main": "dist/index.js",
@@ -10,11 +10,11 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@taze-editor/taze-core": "1.8.0",
-    "@taze-editor/taze-plugin-basic-elements": "1.8.0",
-    "@taze-editor/taze-plugin-basic-marks": "1.8.0",
-    "@taze-editor/taze-plugin-search-highlight": "1.8.0",
-    "@taze-editor/taze-ui-balloon-toolbar": "1.8.0"
+    "@taze-editor/taze-core": "1.9.0",
+    "@taze-editor/taze-plugin-basic-elements": "1.9.0",
+    "@taze-editor/taze-plugin-basic-marks": "1.9.0",
+    "@taze-editor/taze-plugin-search-highlight": "1.9.0",
+    "@taze-editor/taze-ui-balloon-toolbar": "1.9.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
