@@ -5,4 +5,5 @@
 export * from './misc/index';
 export * from './plugin/index';
 export * from './react/index';
+export * from './slate/index';
 export * from './taze/index';

@@ -4,10 +4,14 @@
 
 export * from './TEditor';
 export * from './addMark';
+export * from './getAboveNode';
 export * from './getEditorString';
 export * from './getMarks';
 export * from './getNodeEntries';
+export * from './getPath';
 export * from './isBlock';
+export * from './isEndPoint';
+export * from './isStartPoint';
 export * from './normalizeEditor';
 export * from './unhangRange';
 export * from './withoutNormalizing';

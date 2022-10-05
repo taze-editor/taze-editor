@@ -3,7 +3,11 @@
  */
 
 export * from './findNode';
+export * from './getBlockAbove';
 export * from './getMark';
 export * from './isMarkActive';
+export * from './isSelectionAtBlockEnd';
+export * from './isSelectionAtBlockStart';
 export * from './match';
+export * from './queryNode';
 export * from './someNode';
