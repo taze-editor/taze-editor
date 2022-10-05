@@ -2805,7 +2805,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@taze-editor/taze-core@1.5.1, @taze-editor/taze-core@workspace:packages/core":
+"@taze-editor/taze-core@1.8.0, @taze-editor/taze-core@workspace:packages/core":
   version: 0.0.0-use.local
   resolution: "@taze-editor/taze-core@workspace:packages/core"
   dependencies:
@@ -2821,11 +2821,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@taze-editor/taze-plugin-basic-elements@1.5.1, @taze-editor/taze-plugin-basic-elements@workspace:packages/taze-plugins/basic-elements":
+"@taze-editor/taze-plugin-basic-elements@1.8.0, @taze-editor/taze-plugin-basic-elements@workspace:packages/taze-plugins/basic-elements":
   version: 0.0.0-use.local
   resolution: "@taze-editor/taze-plugin-basic-elements@workspace:packages/taze-plugins/basic-elements"
   dependencies:
-    "@taze-editor/taze-core": 1.5.1
+    "@taze-editor/taze-core": 1.8.0
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
@@ -2835,11 +2835,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@taze-editor/taze-plugin-basic-marks@1.5.1, @taze-editor/taze-plugin-basic-marks@workspace:packages/taze-plugins/basic-marks":
+"@taze-editor/taze-plugin-basic-marks@1.8.0, @taze-editor/taze-plugin-basic-marks@workspace:packages/taze-plugins/basic-marks":
   version: 0.0.0-use.local
   resolution: "@taze-editor/taze-plugin-basic-marks@workspace:packages/taze-plugins/basic-marks"
   dependencies:
-    "@taze-editor/taze-core": 1.5.1
+    "@taze-editor/taze-core": 1.8.0
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
@@ -2849,11 +2849,25 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@taze-editor/taze-plugin-search-highlight@1.5.1, @taze-editor/taze-plugin-search-highlight@workspace:packages/taze-plugins/search-highlight":
+"@taze-editor/taze-plugin-reset-node@workspace:packages/taze-plugins/reset-node":
+  version: 0.0.0-use.local
+  resolution: "@taze-editor/taze-plugin-reset-node@workspace:packages/taze-plugins/reset-node"
+  dependencies:
+    "@taze-editor/taze-core": 1.8.0
+  peerDependencies:
+    react: ">=16.8.0"
+    react-dom: ">=16.8.0"
+    slate: ">=0.78.0"
+    slate-history: ">=0.66.0"
+    slate-react: ">=0.79.0"
+  languageName: unknown
+  linkType: soft
+
+"@taze-editor/taze-plugin-search-highlight@1.8.0, @taze-editor/taze-plugin-search-highlight@workspace:packages/taze-plugins/search-highlight":
   version: 0.0.0-use.local
   resolution: "@taze-editor/taze-plugin-search-highlight@workspace:packages/taze-plugins/search-highlight"
   dependencies:
-    "@taze-editor/taze-core": 1.5.1
+    "@taze-editor/taze-core": 1.8.0
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
@@ -2863,11 +2877,11 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@taze-editor/taze-ui-balloon-toolbar@workspace:packages/taze-plugins/ui/balloon-toolbar":
+"@taze-editor/taze-ui-balloon-toolbar@1.8.0, @taze-editor/taze-ui-balloon-toolbar@workspace:packages/taze-plugins/ui/balloon-toolbar":
   version: 0.0.0-use.local
   resolution: "@taze-editor/taze-ui-balloon-toolbar@workspace:packages/taze-plugins/ui/balloon-toolbar"
   dependencies:
-    "@taze-editor/taze-core": 1.5.1
+    "@taze-editor/taze-core": 1.8.0
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
@@ -2881,10 +2895,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@taze-editor/taze@workspace:packages/taze"
   dependencies:
-    "@taze-editor/taze-core": 1.5.1
-    "@taze-editor/taze-plugin-basic-elements": 1.5.1
-    "@taze-editor/taze-plugin-basic-marks": 1.5.1
-    "@taze-editor/taze-plugin-search-highlight": 1.5.1
+    "@taze-editor/taze-core": 1.8.0
+    "@taze-editor/taze-plugin-basic-elements": 1.8.0
+    "@taze-editor/taze-plugin-basic-marks": 1.8.0
+    "@taze-editor/taze-plugin-search-highlight": 1.8.0
+    "@taze-editor/taze-ui-balloon-toolbar": 1.8.0
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
