@@ -1,15 +1,10 @@
 import { Editor } from "slate";
 import { EditorAboveOptions } from "slate/dist/interfaces/editor";
-import {
-  ENodeMatchOptions,
-  getQueryOptions,
-  Modify,
-  EAncestor,
-  TAncestor,
-  TNodeEntry,
-  TEditor,
-  Value
-} from "@taze-editor/taze-core";
+import { ENodeMatchOptions, getQueryOptions } from "../../queries/match";
+import { Modify } from "../../types/misc/types";
+import { EAncestor, TAncestor } from "../node/TAncestor";
+import { TNodeEntry } from "../node/TNodeEntry";
+import { TEditor, Value } from "./TEditor";
 
 export type GetAboveNodeOptions<V extends Value = Value> = Modify<
   NonNullable<EditorAboveOptions<TAncestor>>,
