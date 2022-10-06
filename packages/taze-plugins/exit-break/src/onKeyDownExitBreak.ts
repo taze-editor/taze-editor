@@ -15,12 +15,14 @@ export const onKeyDownExitBreak = <
   E extends TazeEditor<V> = TazeEditor<V>
 >(
   editor: E,
-  { options: { rules = [] } }: WithTazePlugin<ExitBreakPlugin, V, E>
+  { options }: WithTazePlugin<ExitBreakPlugin, V, E>
 ): KeyboardHandlerReturnType => event => {
   const entry = getBlockAbove(editor);
   if (!entry) return;
 
-  rules.forEach(({ hotkey, ...rule }) => {
+  if (!options?.rules) return;
+
+  options?.rules.forEach(({ hotkey, ...rule }) => {
     if (isHotkey(hotkey, event as any) && queryNode(entry, rule.query)) {
       if (exitBreak(editor as any, rule)) {
         event.preventDefault();
