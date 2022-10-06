@@ -1,6 +1,6 @@
 {
   "name": "@taze-editor/taze-plugin-reset-node",
-  "version": "1.9.1",
+  "version": "1.10.0",
   "description": "Reset node plugin for Taze Editor",
   "license": "MIT",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@taze-editor/taze-core": "1.9.1"
+    "@taze-editor/taze-core": "1.10.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",

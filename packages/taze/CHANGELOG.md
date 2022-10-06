@@ -1,5 +1,20 @@
 # @taze-editor/taze
 
+## 1.10.0
+
+### Minor Changes
+
+- 7ca8b87: Add `exit-break` plugin
+
+### Patch Changes
+
+- Updated dependencies [7ca8b87]
+  - @taze-editor/taze-core@1.10.0
+  - @taze-editor/taze-plugin-basic-elements@1.10.0
+  - @taze-editor/taze-plugin-basic-marks@1.10.0
+  - @taze-editor/taze-plugin-search-highlight@1.10.0
+  - @taze-editor/taze-ui-balloon-toolbar@1.10.0
+
 ## 1.9.1
 
 ### Patch Changes

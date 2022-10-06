@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.10.0
+
+### Minor Changes
+
+- 7ca8b87: Add `exit-break` plugin
+
 ## 1.9.1
 
 ### Patch Changes
