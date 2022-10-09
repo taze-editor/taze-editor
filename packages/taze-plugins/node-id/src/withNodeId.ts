@@ -1,7 +1,7 @@
 import {
   defaultsDeepToNodes,
   TazeEditor,
-  queryNode
+  queryNode,
   someNode,
   TNode,
   TNodeEntry,
@@ -10,8 +10,6 @@ import {
 } from "@taze-editor/taze-core";
 import cloneDeep from "lodash/cloneDeep";
 import { NodeIdPlugin } from "./createNodeIdPlugin";
-
-
 
 /**
  * Enables support for inserting nodes with an id key.
