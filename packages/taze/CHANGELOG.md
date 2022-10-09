@@ -1,5 +1,20 @@
 # @taze-editor/taze
 
+## 1.11.0
+
+### Minor Changes
+
+- 32aa1f1: Add `node-id` plugin
+
+### Patch Changes
+
+- Updated dependencies [32aa1f1]
+  - @taze-editor/taze-core@1.11.0
+  - @taze-editor/taze-plugin-basic-elements@1.11.0
+  - @taze-editor/taze-plugin-basic-marks@1.11.0
+  - @taze-editor/taze-plugin-search-highlight@1.11.0
+  - @taze-editor/taze-ui-balloon-toolbar@1.11.0
+
 ## 1.10.1
 
 ### Patch Changes

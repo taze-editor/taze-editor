@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.11.0
+
+### Minor Changes
+
+- 32aa1f1: Add `node-id` plugin
+
 ## 1.10.1
 
 ### Patch Changes
