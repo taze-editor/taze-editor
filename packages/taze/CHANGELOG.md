@@ -1,5 +1,23 @@
 # @taze-editor/taze
 
+## 1.13.0
+
+### Minor Changes
+
+- e83272f: Add `exit-break`, `node-id` and `reset-node` plugins into `@taze-editor/taze`
+
+### Patch Changes
+
+- Updated dependencies [e83272f]
+  - @taze-editor/taze-core@1.13.0
+  - @taze-editor/taze-plugin-basic-elements@1.13.0
+  - @taze-editor/taze-plugin-basic-marks@1.13.0
+  - @taze-editor/taze-plugin-exit-break@1.13.0
+  - @taze-editor/taze-plugin-node-id@1.13.0
+  - @taze-editor/taze-plugin-reset-node@1.13.0
+  - @taze-editor/taze-plugin-search-highlight@1.13.0
+  - @taze-editor/taze-ui-balloon-toolbar@1.13.0
+
 ## 1.12.0
 
 ### Minor Changes
