@@ -1,5 +1,13 @@
 # @taze-editor/taze-ui-balloon-toolbar
 
+## 1.10.1
+
+### Patch Changes
+
+- b9815bf: Add node matchers and recursive `apply` operation utils
+- Updated dependencies [b9815bf]
+  - @taze-editor/taze-core@1.10.1
+
 ## 1.10.0
 
 ### Minor Changes
