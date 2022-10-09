@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.12.0
+
+### Minor Changes
+
+- 67ceb82: Add core `is` checker helpers and queries
+
 ## 1.11.0
 
 ### Minor Changes
