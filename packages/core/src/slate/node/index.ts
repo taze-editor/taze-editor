@@ -6,6 +6,7 @@ export * from './TAncestor';
 export * from './TDescendant';
 export * from './TNode';
 export * from './TNodeEntry';
+export * from './getNodeString';
 export * from './isAncestor';
 export * from './isNode';
 export * from './isNodeList';
