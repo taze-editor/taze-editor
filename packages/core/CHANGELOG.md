@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.13.0
+
+### Minor Changes
+
+- e83272f: Add `exit-break`, `node-id` and `reset-node` plugins into `@taze-editor/taze`
+
 ## 1.12.0
 
 ### Minor Changes

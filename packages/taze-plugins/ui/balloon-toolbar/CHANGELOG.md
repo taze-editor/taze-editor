@@ -1,5 +1,16 @@
 # @taze-editor/taze-ui-balloon-toolbar
 
+## 1.13.0
+
+### Minor Changes
+
+- e83272f: Add `exit-break`, `node-id` and `reset-node` plugins into `@taze-editor/taze`
+
+### Patch Changes
+
+- Updated dependencies [e83272f]
+  - @taze-editor/taze-core@1.13.0
+
 ## 1.12.0
 
 ### Minor Changes
