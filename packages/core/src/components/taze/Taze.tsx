@@ -1,7 +1,10 @@
 import React from "react";
 import { Slate, Editable } from "slate-react";
+import shallow from "zustand/shallow";
+import { useDeepCompareMemo } from "use-deep-compare";
 import { useTaze } from "../../hooks";
-import { TDescendant, TEditableProps, Value } from "../../slate";
+import { useEditorValue } from "../../hooks/taze/useEditorValue";
+import { TEditableProps, Value } from "../../slate";
 import { TazeEditor } from "../../types/taze/TazeEditor";
 
 export type TazeProps<
@@ -15,7 +18,7 @@ export type TazeProps<
    * Initial value of the editor.
    * @default [{ children: [{ text: '' }]}]
    */
-  initialValue?: TDescendant[];
+  initialValue?: Value;
   /**
    * When `true`, it will normalize the initial value passed to the `editor` once it gets created.
    * This is useful when adding normalization rules on already existing content.
@@ -53,6 +56,15 @@ export type TazeProps<
         react?: boolean;
       }
     | boolean;
+  /**
+   * The controlled value of the editor.
+   * Must be used in conjunction with `setValue`.
+   */
+  value?: Value;
+  /**
+   * The controlled value setter function.
+   */
+  setValue?: (value: Value) => void;
 };
 
 export const Taze = ({
@@ -64,9 +76,27 @@ export const Taze = ({
   placeholder,
   beforeEditable,
   afterEditable,
+  value: _value,
+  setValue: _setValue,
   ...options
 }: TazeProps) => {
-  const { slateProps, editableProps } = useTaze({ editor, initialValue });
+  const { uncontrolledValue, setUncontrolledValue } = useEditorValue({
+    editor,
+    initialValue
+  })(
+    ({ value, setValue }) => ({
+      uncontrolledValue: value,
+      setUncontrolledValue: setValue
+    }),
+    shallow
+  );
+
+  const [value, setValue] = useDeepCompareMemo(() => {
+    return [_value ?? uncontrolledValue, _setValue ?? setUncontrolledValue];
+  }, [_value, _setValue, uncontrolledValue, setUncontrolledValue]);
+
+  const { slateProps, editableProps } = useTaze({ editor, value, setValue });
+
   return (
     <Slate editor={editor} {...(slateProps as any)}>
       {beforeEditable}

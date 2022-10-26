@@ -5,6 +5,7 @@
 export * from './useDecorate';
 export * from './useEditableProps';
 export * from './useEditorState';
+export * from './useEditorValue';
 export * from './useOnChange';
 export * from './useRenderElement';
 export * from './useRenderLeaf';

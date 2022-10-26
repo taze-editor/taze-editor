@@ -1,4 +1,4 @@
-import { TDescendant, Value } from "../../slate";
+import { Value } from "../../slate";
 import { TazeEditor } from "../../types";
 import { useEditableProps } from "./useEditableProps";
 import { useSlateProps } from "./useSlateProps";
@@ -8,13 +8,15 @@ export const useTaze = <
   E extends TazeEditor<V> = TazeEditor<V>
 >({
   editor,
-  initialValue = []
+  value,
+  setValue
 }: {
   editor: E;
-  initialValue?: TDescendant[];
+  value: Value;
+  setValue: (value: Value) => void;
 }) => {
   return {
-    slateProps: useSlateProps<V>({ editor, initialValue }),
+    slateProps: useSlateProps<V>({ editor, value, setValue }),
     editableProps: useEditableProps<V>({ editor })
   };
 };

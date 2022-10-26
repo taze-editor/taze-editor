@@ -1,5 +1,4 @@
-import { useCallback, useMemo, useState } from "react";
-import { TazeProps } from "../../components";
+import { useDeepCompareCallback, useDeepCompareMemo } from "use-deep-compare";
 import { TDescendant } from "../../slate";
 import { Value } from "../../slate/editor/TEditor";
 import { SlateProps } from "../../slate/types/SlateProps";
@@ -11,14 +10,14 @@ import { pipeOnChange } from "../../utils/taze/pipeOnChange";
  */
 export const useSlateProps = <V extends Value>({
   editor,
-  initialValue = []
+  value,
+  setValue
 }: {
   editor: TazeEditor<V>;
-  initialValue?: TDescendant[];
+  value: Value;
+  setValue: (value: Value) => void;
 }): Omit<SlateProps, "children"> => {
-  const [value, setValue] = useState<TDescendant[]>(initialValue);
-
-  const onChange = useCallback(
+  const onChange = useDeepCompareCallback(
     newValue => {
       if (!editor) return;
 
@@ -26,17 +25,15 @@ export const useSlateProps = <V extends Value>({
 
       setValue(newValue);
     },
-    [editor]
+    [editor, setValue]
   );
 
-  return useMemo(() => {
-    if (!editor) return {};
-
+  return useDeepCompareMemo(() => {
     return {
       editor,
       onChange,
       value,
       setValue
     };
-  }, [editor, onChange]);
+  }, [editor, onChange, value, setValue]);
 };
