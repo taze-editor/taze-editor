@@ -1,5 +1,11 @@
 # @taze-editor/taze-core
 
+## 1.14.0
+
+### Minor Changes
+
+- 57eff18: Provide controllable editor - controlled (value/setValue)
+
 ## 1.13.0
 
 ### Minor Changes
