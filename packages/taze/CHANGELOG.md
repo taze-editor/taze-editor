@@ -1,5 +1,23 @@
 # @taze-editor/taze
 
+## 1.14.0
+
+### Minor Changes
+
+- 57eff18: Provide controllable editor - controlled (value/setValue)
+
+### Patch Changes
+
+- Updated dependencies [57eff18]
+  - @taze-editor/taze-core@1.14.0
+  - @taze-editor/taze-plugin-basic-elements@1.14.0
+  - @taze-editor/taze-plugin-basic-marks@1.14.0
+  - @taze-editor/taze-plugin-exit-break@1.14.0
+  - @taze-editor/taze-plugin-node-id@1.14.0
+  - @taze-editor/taze-plugin-reset-node@1.14.0
+  - @taze-editor/taze-plugin-search-highlight@1.14.0
+  - @taze-editor/taze-ui-balloon-toolbar@1.14.0
+
 ## 1.13.0
 
 ### Minor Changes

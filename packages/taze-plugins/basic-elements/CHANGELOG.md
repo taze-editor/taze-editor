@@ -1,5 +1,16 @@
 # @taze-editor/taze-plugin-basic-elements
 
+## 1.14.0
+
+### Minor Changes
+
+- 57eff18: Provide controllable editor - controlled (value/setValue)
+
+### Patch Changes
+
+- Updated dependencies [57eff18]
+  - @taze-editor/taze-core@1.14.0
+
 ## 1.13.0
 
 ### Minor Changes
