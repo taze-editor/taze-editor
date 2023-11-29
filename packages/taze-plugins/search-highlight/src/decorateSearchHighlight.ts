@@ -16,7 +16,12 @@ export const decorateSearchHighlight = <
 ): DecorateEntry => ([node, path]: TNodeEntry) => {
   const { store } = plugin;
 
-  if (!store) return;
+  if (!store) {
+    console.warn(
+      "[@taze-editor/taze-plugin-search-highlight] store is not defined @decorate"
+    );
+    return;
+  }
 
   const {
     getSearchRanges,

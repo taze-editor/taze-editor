@@ -5,7 +5,7 @@ import { useSearchHighlightEffect } from "./useSearchHighlightEffect";
 export const SearchHighlightEffect: RenderAfterEditable = ({ editor }) => {
   if (!editor) {
     console.warn(
-      "[@taze-editor/taze-plugin-search-highlight] editor is not defined"
+      "[@taze-editor/taze-plugin-search-highlight] editor is not defined @renderAfterEditable"
     );
     return null;
   }
