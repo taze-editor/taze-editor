@@ -1,5 +1,11 @@
 # @taze-editor/taze-plugin-search-highlight
 
+## 2.1.0
+
+### Minor Changes
+
+- 069a4e5: Fix editor interactivity in store actions and effect
+
 ## 2.0.0
 
 ### Major Changes
