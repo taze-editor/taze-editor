@@ -1,5 +1,25 @@
 # @taze-editor/taze-plugin-search-highlight
 
+## 2.0.0
+
+### Major Changes
+
+- 4c0a147: In this major version, upgrades to the minimum required versions of `slate`,
+  `slate-react`, and `slate-history` have set up.
+
+  We introduce `renderAfterEditable` and `renderBeforeEditable` for the
+  `TazePlugin` type, providing flexibility for users to integrate plugins like
+  `@taze-editor/taze-plugin-search-highlight`.
+
+  Importantly, there's no longer a need to use `useSearchHighlightPluginStore`
+  unless its necessary (to make it work). This enhancement simplifies the
+  integration of the search highlight plugin for a smoother experience.
+
+### Patch Changes
+
+- Updated dependencies [4c0a147]
+  - @taze-editor/taze-core@2.0.0
+
 ## 1.14.0
 
 ### Minor Changes
