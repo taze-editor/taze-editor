@@ -1,0 +1,59 @@
+---
+slug: /plugins/customization
+title: Customization
+---
+
+You can customize each plugin by adding configuration options to the plugin's
+creator function.
+
+For instance:
+
+```tsx
+import { useMemo } from "react";
+import { withReact } from "slate-react";
+import { withHistory } from "slate-history";
+
+import {
+  createTazeEditor
+} from "@taze-editor/taze-core";
+
+import {
+  createSearchHighlightPlugin
+} from "@taze-editor/taze-plugin-search-highlight";
+
+const CustomComponent = ({ attributes }) => <div {...attributes} />
+
+export const App = () => {
+
+  const editor = useMemo(() =>
+    withReact(
+      withHistory(
+        createTazeEditor({
+          plugins: [
+            // -> pass options inside the plugin creator function
+            createSearchHighlightPlugin({
+              onChange: (editor, store) => (value) => {
+                // ...
+              },
+              component: CustomComponent,
+              options: {
+                hotkey: "mod+shift+x"
+              },
+              type: "my-custom-type"
+            })
+          ]
+        })
+      )
+    ),
+  []);
+
+  return (
+    // ...
+  );
+};
+```
+
+## Using Hotkeys
+
+- Taze Editor uses [`is-hotkey`](https://github.com/ianstormtaylor/is-hotkey) to
+  handle shortcuts.

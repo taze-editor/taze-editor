@@ -25,6 +25,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          includeCurrentVersion: false,
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: "https://github.com/taze-editor/taze-editor/tree/main/docs",
           remarkPlugins: [
@@ -48,6 +49,11 @@ const config = {
           src: "img/logo.svg"
         },
         items: [
+          {
+            type: "docsVersionDropdown",
+            position: "left",
+            dropdownActiveClassDisabled: true
+          },
           {
             position: "left",
             label: "Docs",
