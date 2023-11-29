@@ -18,7 +18,7 @@ export const useSearchHighlightPluginStore = createPluginStore<TSearchPluginStor
     setSearchMatchedRanges: ranges =>
       set(state => ({ ...state, searchMatchedRanges: ranges })),
     setSearchStep: value => set(state => ({ ...state, searchStep: value })),
-    moveNextSearchStep: () => {
+    moveNextSearchStep: editor => {
       const { searchStep, searchMatchedRanges } = get();
       const nextStep =
         searchStep >= searchMatchedRanges.length - 1 ? 0 : searchStep + 1;
@@ -27,8 +27,14 @@ export const useSearchHighlightPluginStore = createPluginStore<TSearchPluginStor
         ...state,
         searchStep: nextStep
       }));
+
+      editor.apply({
+        type: "set_selection",
+        properties: searchMatchedRanges[nextStep],
+        newProperties: searchMatchedRanges[nextStep]
+      });
     },
-    movePrevSearchStep: () => {
+    movePrevSearchStep: (editor: Editor) => {
       const { searchStep, searchMatchedRanges } = get();
       const prevStep =
         searchStep === 0 ? searchMatchedRanges.length - 1 : searchStep - 1;
@@ -37,6 +43,11 @@ export const useSearchHighlightPluginStore = createPluginStore<TSearchPluginStor
         ...state,
         searchStep: prevStep
       }));
+      editor.apply({
+        type: "set_selection",
+        properties: searchMatchedRanges[prevStep],
+        newProperties: searchMatchedRanges[prevStep]
+      });
     },
     getSearchRanges: (node, path, searchParams, focusedRange) => {
       const ranges: TDecoratedRange[] = [];

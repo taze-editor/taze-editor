@@ -8,8 +8,8 @@ export type TSearchPluginStore = {
   searchStep: number;
   setSearchParams: (params: TSearchParams) => void;
   setReplaceQuery: (value: string) => void;
-  moveNextSearchStep: () => void;
-  movePrevSearchStep: () => void;
+  moveNextSearchStep: (editor: Editor) => void;
+  movePrevSearchStep: (editor: Editor) => void;
   setSearchMatchedRanges: (ranges: TDecoratedRange[]) => void;
   setSearchStep: (value: number) => void;
   getSearchRanges: (
