@@ -1,5 +1,12 @@
 # @taze-editor/taze
 
+## 2.1.0
+
+### Patch Changes
+
+- Updated dependencies [069a4e5]
+  - @taze-editor/taze-plugin-search-highlight@2.1.0
+
 ## 2.0.0
 
 ### Major Changes
