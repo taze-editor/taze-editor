@@ -59,7 +59,7 @@ export const SearchHighlightPlugin = () => {
         "/Styled.tsx": Styled
       }}
       deps={{
-        "@taze-editor/taze-plugin-search-highlight": tazeVersion2,
+        "@taze-editor/taze-plugin-search-highlight": "2.1.0",
         "@desygna/desygna": "1.0.0",
         "@emotion/react": "^11.10.0",
         "@emotion/styled": "^11.10.0"
@@ -153,10 +153,10 @@ export const Toolbar = () => {
       
       <S.Div w="100%" display="flex" justifyContent="space-between" gap="4px">
         <S.Div display="flex" gap="4px" justifyContent="center">
-          <S.Button onMouseDown={() => movePrevSearchStep()}>
+          <S.Button onMouseDown={() => movePrevSearchStep(editor)}>
             &lt; Prev
           </S.Button>
-          <S.Button onMouseDown={() => moveNextSearchStep()}>
+          <S.Button onMouseDown={() => moveNextSearchStep(editor)}>
             Next &gt;
           </S.Button>
         </S.Div>
