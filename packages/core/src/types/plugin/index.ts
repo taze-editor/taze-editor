@@ -6,6 +6,7 @@ export * from './DOMHandlers';
 export * from './Decorate';
 export * from './HotkeyPlugin';
 export * from './KeyboardHandler';
+export * from './RenderAfterEditable';
 export * from './TazePlugin';
 export * from './TazePluginComponent';
 export * from './TazePluginKey';

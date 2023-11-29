@@ -8,6 +8,7 @@ import { PluginKey, TazePluginKey } from "./TazePluginKey";
 import { TazePluginStore } from "./TazePluginStore";
 import { TazePluginProps } from "./TazePluginProps";
 import { WithOverride } from "./WithOverride";
+import { RenderAfterEditable } from "./RenderAfterEditable";
 
 /**
  * The `TazePlugin` interface is a base interface for all plugins.
@@ -75,6 +76,14 @@ export type TazePlugin<
    * If object, its value will be shallow merged to the old props.
    */
   props?: TazePluginProps<V>;
+  /**
+   * Render a component after `Editable`.
+   */
+  renderAfterEditable?: RenderAfterEditable;
+  /**
+   * Render a component before `Editable`.
+   */
+  renderBeforeEditable?: RenderAfterEditable;
   /**
    * Recursive plugin merging.
    * Can be used to derive plugin fields from `editor` and `plugin`.
