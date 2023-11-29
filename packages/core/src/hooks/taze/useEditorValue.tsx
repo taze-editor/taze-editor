@@ -1,4 +1,4 @@
-import create from "zustand";
+import { createWithEqualityFn } from "zustand/traditional";
 import { Value } from "../../slate";
 import { TazeEditor } from "../../types";
 
@@ -21,7 +21,7 @@ export const useEditorValue = <
   editor: E;
   initialValue?: Value;
 }) =>
-  create<UseEditorValueType>(set => ({
+  createWithEqualityFn<UseEditorValueType>(set => ({
     value: initialValue,
     setValue: value => {
       editor.children = value;

@@ -1,1 +1,1 @@
-export { default as createPluginStore } from "zustand";
+export { createWithEqualityFn as createPluginStore } from "zustand/traditional";

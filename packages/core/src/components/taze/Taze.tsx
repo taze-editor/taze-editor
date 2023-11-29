@@ -1,6 +1,6 @@
 import React from "react";
 import { Slate, Editable } from "slate-react";
-import shallow from "zustand/shallow";
+import { shallow } from "zustand/shallow";
 import { useDeepCompareMemo } from "use-deep-compare";
 import { useTaze } from "../../hooks";
 import { useEditorValue } from "../../hooks/taze/useEditorValue";
@@ -74,8 +74,8 @@ export const Taze = ({
   editableRef,
   renderEditable,
   placeholder,
-  beforeEditable,
-  afterEditable,
+  beforeEditable: _beforeEditable,
+  afterEditable: _afterEditable,
   value: _value,
   setValue: _setValue,
   ...options
@@ -96,6 +96,31 @@ export const Taze = ({
   }, [_value, _setValue, uncontrolledValue, setUncontrolledValue]);
 
   const { slateProps, editableProps } = useTaze({ editor, value, setValue });
+
+  let afterEditable: React.ReactNode = _afterEditable;
+  let beforeEditable: React.ReactNode = _beforeEditable;
+
+  editor.plugins.forEach(plugin => {
+    const { renderBeforeEditable, renderAfterEditable } = plugin;
+
+    if (renderAfterEditable) {
+      afterEditable = (
+        <>
+          {afterEditable}
+          {renderAfterEditable({ ...editableProps, editor })}
+        </>
+      );
+    }
+
+    if (renderBeforeEditable) {
+      beforeEditable = (
+        <>
+          {beforeEditable}
+          {renderBeforeEditable({ ...editableProps, editor })}
+        </>
+      );
+    }
+  });
 
   return (
     <Slate editor={editor} {...(slateProps as any)}>
