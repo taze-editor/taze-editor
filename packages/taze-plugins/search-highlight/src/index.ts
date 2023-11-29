@@ -3,6 +3,7 @@
  */
 
 export * from './SearchHighlightComponent';
+export * from './SearchHighlightEffect';
 export * from './createSearchHighlightPlugin';
 export * from './decorateSearchHighlight';
 export * from './useSearchHighlightEffect';
