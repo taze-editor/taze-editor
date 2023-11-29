@@ -21,5 +21,11 @@ export const useSearchHighlightEffect = ({
 
     const step = getNextSearchMatchStep(editor, ranges);
     setSearchStep(step);
+
+    editor.apply({
+      type: "set_selection",
+      properties: ranges[0],
+      newProperties: ranges[0]
+    });
   }, [editor, searchParams]);
 };
