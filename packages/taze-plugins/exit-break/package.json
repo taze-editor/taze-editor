@@ -1,6 +1,6 @@
 {
   "name": "@taze-editor/taze-plugin-exit-break",
-  "version": "1.14.0",
+  "version": "2.0.0",
   "description": "Exit break plugin for Taze Editor",
   "license": "MIT",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
   ],
   "types": "dist/index.d.ts",
   "dependencies": {
-    "@taze-editor/taze-core": "1.14.0"
+    "@taze-editor/taze-core": "2.0.0"
   },
   "peerDependencies": {
     "react": ">=16.8.0",
